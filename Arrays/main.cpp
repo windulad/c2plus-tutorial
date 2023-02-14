@@ -1,6 +1,10 @@
 #include <iostream>
+#include <cmath>
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    string food[] = {"pasta","pizza","burger","sushi","lasagna"};
+    cout << food[1] << endl;
     return 0;
 }
